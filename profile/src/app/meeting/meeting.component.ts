@@ -10,7 +10,7 @@ export class MeetingComponent implements OnInit {
   constructor() { }
 
   Meetings : Meet[] = [
-    {date :"September 1st,2021" ,document:"../../assets/Minutes of Meeting/Meeting-1.pdf"}
+    {date :"September 1st,2021" ,document:"assets/Minutes of Meeting/Meeting-1.pdf"}
   ]
 
   ngOnInit(): void {
