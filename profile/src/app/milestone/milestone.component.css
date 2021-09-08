@@ -1,5 +1,9 @@
 .milestone{
     position: absolute;
     top: 20%;
-    padding-left:  10%;
+    padding-left:20%;
+}
+
+.table{
+    width: 60vw;
 }
