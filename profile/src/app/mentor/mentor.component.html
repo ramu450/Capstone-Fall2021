@@ -1,0 +1,17 @@
+      <div class="container mentor-profile">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-xs-6 col-sm-6" *ngFor="let m of Mentors">
+                    <div class="team-1">
+                        <div class="team-img">
+                            <img src={{m.Image}} alt="Team Image">
+                        </div>
+                        <div class="team-content">
+                            <h2>{{m.Name}}</h2>
+                            <h3>{{m.Description}}</h3>
+                            <h4>{{m.Email}}</h4>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <!-- Team #3 End -->

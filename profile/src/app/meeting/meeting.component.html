@@ -1,0 +1,14 @@
+<div class="meeting container">
+<table class="table table-dark text-center table-striped">
+  <thead>
+    <tr>
+      <th scope="col"><h1>Meetings</h1></th>
+    </tr>
+  </thead>
+  <tbody *ngFor="let me of Meetings">
+    <tr>
+      <td class="py-4"><a href={{me.document}} target="_blank">{{me.date}}</a></td>
+    </tr>
+  </tbody>
+</table>
+</div>
